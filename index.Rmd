@@ -1,0 +1,42 @@
+---
+title: "Disciplina de Análise de Dados no Agronegócio"
+author: "Prof. Dr. Fernando Machado Haesbaert"
+output: 
+      prettydoc::html_pretty:
+        theme: architect
+        highlight: github
+---
+
+```{r klippy, echo=FALSE, include=TRUE}
+#install.packages("remotes")
+#remotes::install_github("rlesur/klippy", force = TRUE)
+library(klippy)
+klippy::klippy(
+  lang = c("r", "markdown"),
+  all_precode = FALSE,
+  position = c("top", "right"),
+  color = "auto",
+  tooltip_message = "Copy code",
+  tooltip_success = "Copied!"
+)
+```
+
+Disciplina de **Análise de Dados no Agronegócio** ministrada para o curso de mestrado do Programa de Pós-Graduação em Agroenergia Digital.  
+
+
+# Apresentação da Disciplina
+A disciplina de Análise de Dados no Agronegócio tem como objetivo apresentar conceitos e técnicas de análise de dados aplicados ao agronegócio. A disciplina aborda temas como estatística descritiva, análise exploratória de dados, visualização de dados, modelagem preditiva e classificação de dados.
+
+
+# Algoritmo de Classificação - KNN
+## Introdução
+Nesta aula veremos alguns algoritmos de classificação, começando com o `K-Nearest Neighbors (KNN)`, que é um algoritmo de aprendizado supervisionado. O KNN é um algoritmo simples que armazena todos os casos disponíveis e classifica novos casos com base em uma medida de similaridade (por exemplo, distância Euclidiana). O KNN tem sido usado em estatística e reconhecimento de padrões por muitos anos.  
+
+As técnicas de classificação são utilizadas para a identificação do rótulo de determinadas observações com base em características e informações previamente conhecidas (Lantz 2013).  A classificação é uma técnica de aprendizado supervisionado, onde o objetivo é identificar a qual classe pertence uma determinada observação.  
+
+A capacidade do modelo de gerar uma predição satisfatória é denominada capacidade de generalização, ou seja, quão bom o modelo é na predição de classe ou valor dos novos registros ainda não rotulados.  
+  
+O prieiro algoritmos de classificação que veremos é o `K-Nearest Neighbors (KNN)`, que é um algoritmo de aprendizado supervisionado. 
+
+Veja o tutorial completo em: [KNN](Classific/index.html)
+
